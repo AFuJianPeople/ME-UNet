@@ -88,5 +88,5 @@ If you find our work helpful, please consider citing the papers
 ## Acknowledgements
 
 We acknowledge all the authors of the employed public datasets, allowing the community to use these valuable resources for research purposes. 
-We also thank the authors of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [Mamba](https://github.com/state-spaces/mamba), [U-Mamba](https://github.com/bowang-lab/U-Mamba) and [LightM-UNet](https://github.com/MrBlankness/LightM-UNet) for making their valuable code publicly available.
+We also thank the authors of [nnU-Net](https://github.com/MIC-DKFZ/nnUNet), [Mamba](https://github.com/state-spaces/mamba) and [U-Mamba](https://github.com/bowang-lab/U-Mamba) for making their valuable code publicly available.
 
