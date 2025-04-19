@@ -271,15 +271,15 @@ class E3DR(nn.Module):
         x1 = self.norm(x1)
         x1 = self.nonliner(x1)
 
-        x1 = self.proj2(x1)
-        x1 = self.norm2(x1)
-        x1 = self.nonliner2(x1)
+        # x1 = self.proj2(x1)
+        # x1 = self.norm2(x1)
+        # x1 = self.nonliner2(x1)
 
         x2 = self.proj3(x)
         x2 = self.norm3(x2)
         x2 = self.nonliner3(x2)
 
-        x = x1 + x2
+        x = x1 * x2
         x = self.proj4(x)
         x = self.norm4(x)
         x = self.nonliner4(x)
